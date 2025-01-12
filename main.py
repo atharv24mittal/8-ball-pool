@@ -10,7 +10,7 @@ SCREEN_HEIGHT = 678
 BOTTOM_PANEL = 50
 
 #game window
-screen =pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT + BOTTOM_PANEL))
+screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT + BOTTOM_PANEL))
 pygame.display.set_caption("Pool")
 
 #pymunk space
